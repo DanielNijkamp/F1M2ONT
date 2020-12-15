@@ -11,19 +11,57 @@ body {
     margin: 30px auto;
     min-height: 1920px;
     background-image: url('../LetitbeDanielEdition.jpg');
-    color: white;
-    padding-top: 125px;
+    background-repeat: no-repeat;
+    color:rgb(255, 255, 255);
+    padding-top: 216px;
 }
 
 .beatles{
-    background-color: rgba(255, 0, 0, 0.7);
+    background-color: rgba(255, 0, 0, 0);
     width: 200px;
+    cursor:pointer;
 }
 
 #Barack {
-    margin-left: 95px;
-    padding-top: 500px;
-    
+    margin-left: 145px;
+    padding-top: 700px;
+    padding-left: 595px;
+    padding-bottom: 10px;
+
+
+}
+#Dwanye {
+    margin-left: 970px;
+    margin-top: -800px;
+    padding-top: 720px;
+    padding-right: 590px;
+    padding-bottom: 10px;
+}
+#TheRock {
+    margin-left: 145px;
+    padding-top: 60px;
+    padding-left: 595px;
+    padding-bottom: 715px;
+}
+#Daniel {
+    margin-left: 970px;
+    margin-top: -790px;
+    padding-bottom: 715px;
+    padding-top: 0px;
+    padding-right: 590px;
+
+
+
+}
+
+
+
+.beatles .naam {
+    opacity: 0;
+    text-shadow: 0 0 20px black;
+}
+.beatles:hover .naam{
+    opacity: 100;
 }
 
 h3, p{
@@ -32,6 +70,6 @@ h3, p{
 }
 
 .naam{
-    border-left: solid 9px red;
+    border-left: solid 9px rgb(255, 0, 0);
     padding-left: 9px;
 }
